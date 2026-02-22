@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en-GB" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PCN Rescue Pack | Private Parking Charge Admin Support UK</title>
+    <meta
+      name="description"
+      content="Private parking charge admin support for UK drivers. Get templates, evidence checklists, and deadline-safe next steps within 24 hours."
+    />
+    <link rel="canonical" href="{{CANONICAL_URL}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="PCN Rescue Pack | Don't panic-pay" />
+    <meta
+      property="og:description"
+      content="Calm, UK-focused private parking charge admin support with clear templates and next steps."
+    />
+    <meta property="og:url" content="{{CANONICAL_URL}}" />
+    <meta property="og:image" content="assets/logo.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="PCN Rescue Pack | Private Parking Charge Support" />
+    <meta
+      name="twitter:description"
+      content="Private parking charge admin support only. Not legal advice. Not council PCNs."
+    />
+    <meta name="twitter:image" content="assets/logo.svg" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg-[var(--bg)] text-[var(--text)] antialiased">
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <div class="announcement border-b border-[var(--border)] text-sm">
+      <p class="mx-auto max-w-6xl px-4 py-2.5 text-center text-[var(--muted)]">
+        Founding slots this week: Sanity Check £9 (normally £12) • Concierge £59 (normally £79)
+        <span class="ml-2 rounded-full border border-[var(--border)] px-2 py-0.5 text-xs">Limited slots</span>
+      </p>
+    </div>
+
+    <header class="sticky top-0 z-40 border-b border-[var(--border)] bg-[color:var(--bg)/0.9] backdrop-blur-xl">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+        <a href="#" class="flex items-center gap-2 font-semibold tracking-tight" aria-label="PCN Rescue Pack home">
+          <img src="assets/logo.svg" alt="PCN Rescue Pack" class="h-7 w-auto" />
+          <span>PCN Rescue Pack</span>
+        </a>
+        <div class="flex items-center gap-2 md:hidden">
+          <button id="theme-toggle-mobile" class="icon-btn" aria-label="Toggle dark mode" type="button">
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.5M12 19.5V22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M2 12h2.5M19.5 12H22M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+          </button>
+        </div>
+        <nav aria-label="Primary" class="hidden items-center gap-6 text-sm md:flex">
+          <a href="#how-it-works" class="nav-link">How it works</a>
+          <a href="#pricing" class="nav-link">Pricing</a>
+          <a href="#faq" class="nav-link">FAQ</a>
+          <button id="theme-toggle" class="icon-btn" aria-label="Toggle dark mode" type="button">
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.5M12 19.5V22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M2 12h2.5M19.5 12H22M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg>
+          </button>
+          <a href="#pricing" class="btn-primary text-sm" data-select-plan="sanity" data-purchase-cta="true">Start £12 Sanity Check</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero-shell mx-auto mt-6 grid max-w-6xl gap-10 px-4 py-14 lg:grid-cols-[1.1fr_0.9fr] lg:py-20">
+        <div>
+          <p class="inline-flex items-center rounded-full px-3 py-1 text-sm font-medium badge-accent">Not council penalties</p>
+          <h1 class="mt-6 text-4xl font-semibold tracking-tight sm:text-5xl">Private parking charge? Don’t panic-pay.</h1>
+          <p class="mt-5 max-w-2xl text-lg text-[var(--muted)]">
+            Get a clear plan, templates, evidence checklist, and deadline-safe next steps in 24 hours. UK-only.
+          </p>
+          <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+            <a href="#pricing" class="btn-primary" data-select-plan="sanity" data-purchase-cta="true">Start with £12 Sanity Check</a>
+            <a href="#gate" class="btn-secondary" id="hero-upload">Upload PCN &amp; Get Started</a>
+          </div>
+          <ul class="mt-8 grid gap-2 text-sm text-[var(--muted)] sm:grid-cols-2">
+            <li class="chip">24h turnaround</li>
+            <li class="chip">UK templates</li>
+            <li class="chip">No legal jargon</li>
+            <li class="chip">Admin support only</li>
+          </ul>
+          <p class="mt-6 text-sm text-[var(--muted)]">Private operators (ParkingEye, Euro Car Parks, etc.)</p>
+        </div>
+        <aside class="card elevated p-6">
+          <h2 class="text-lg font-semibold tracking-tight">Before you start</h2>
+          <p class="mt-3 text-sm text-[var(--muted)]">
+            Administrative support &amp; document organisation. Not legal advice. Not council Penalty Charge Notices.
+          </p>
+          <dl class="mt-6 grid gap-4 text-sm">
+            <div class="info-row">
+              <dt class="text-[var(--muted)]">Typical response</dt>
+              <dd class="font-medium">Within 24h</dd>
+            </div>
+            <div class="info-row">
+              <dt class="text-[var(--muted)]">Supported cases</dt>
+              <dd class="font-medium">UK private operator notices</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section id="gate" class="mx-auto max-w-6xl px-4 py-8">
+        <h2 class="text-2xl font-semibold tracking-tight">Quick check: what type of notice is it?</h2>
+        <div class="mt-5 inline-flex rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-1" role="tablist" aria-label="Notice type selector">
+          <button class="segment-btn" id="segment-council" role="tab" aria-selected="false" aria-controls="gate-panel" type="button" data-segment="council">Council PCN (Not supported)</button>
+          <button class="segment-btn" id="segment-private" role="tab" aria-selected="false" aria-controls="gate-panel" type="button" data-segment="private">Private operator (Supported)</button>
+        </div>
+        <button class="mt-3 text-sm text-[var(--muted)] underline decoration-[var(--accent)] underline-offset-4" id="not-sure" type="button">I’m not sure</button>
+        <div id="gate-panel" class="mt-4 rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-4 text-sm text-[var(--muted)]" aria-live="polite">
+          Choose an option above to continue.
+        </div>
+      </section>
+
+      <section id="how-it-works" class="mx-auto max-w-6xl px-4 py-10">
+        <h2 class="text-2xl font-semibold tracking-tight">How it works</h2>
+        <div class="mt-6 grid gap-4 md:grid-cols-3">
+          <article class="card p-5"><p class="text-sm text-[var(--muted)]">01</p><h3 class="mt-2 font-semibold">Submit details + upload PCN</h3></article>
+          <article class="card p-5"><p class="text-sm text-[var(--muted)]">02</p><h3 class="mt-2 font-semibold">We build your pack</h3><p class="mt-1 text-sm text-[var(--muted)]">Templates + evidence checklist + deadlines.</p></article>
+          <article class="card p-5"><p class="text-sm text-[var(--muted)]">03</p><h3 class="mt-2 font-semibold">You submit with confidence</h3><p class="mt-1 text-sm text-[var(--muted)]">Or follow our exact step sequence.</p></article>
+        </div>
+      </section>
+
+      <section class="mx-auto max-w-6xl px-4 py-8">
+        <h2 class="text-2xl font-semibold tracking-tight">What you receive</h2>
+        <ul class="mt-5 grid gap-3 text-sm text-[var(--muted)] sm:grid-cols-2">
+          <li class="card p-4">Deadline table + timeline summary</li>
+          <li class="card p-4">Evidence checklist &amp; file naming guide</li>
+          <li class="card p-4">Operator appeal template</li>
+          <li class="card p-4">Landowner cancellation email template (retailer/hotel/gym/site manager)</li>
+          <li class="card p-4">Follow-up schedule scripts</li>
+          <li class="card p-4">Optional add-ons: 24h rush + Escalation formatting</li>
+        </ul>
+      </section>
+
+      <section id="pricing" class="mx-auto max-w-6xl px-4 py-10">
+        <div class="flex flex-wrap items-end justify-between gap-4">
+          <h2 class="text-2xl font-semibold tracking-tight">Pricing</h2>
+          <p class="text-sm text-[var(--muted)]">Choose one plan. You can upgrade later.</p>
+        </div>
+        <div id="pricing-grid" class="mt-6 grid gap-4 lg:grid-cols-4">
+          <article class="pricing-card" data-plan="sanity" data-checkout="{{CHECKOUT_SANITY}}" tabindex="0" aria-pressed="false">
+            <h3 class="font-semibold">Sanity Check</h3><p class="mt-1 text-sm text-[var(--muted)]">£12 <span class="text-xs">(founding £9)</span></p>
+            <a href="{{CHECKOUT_SANITY}}" class="mt-5 inline-block text-sm underline" data-purchase-cta="true">Buy direct</a>
+          </article>
+          <article class="pricing-card" data-plan="diy" data-checkout="{{CHECKOUT_DIY}}" tabindex="0" aria-pressed="false">
+            <h3 class="font-semibold">DIY Rescue Pack</h3><p class="mt-1 text-sm text-[var(--muted)]">£29 <span class="text-xs">(founding £19)</span></p>
+            <a href="{{CHECKOUT_DIY}}" class="mt-5 inline-block text-sm underline" data-purchase-cta="true">Buy direct</a>
+          </article>
+          <article class="pricing-card" data-plan="concierge" data-checkout="{{CHECKOUT_CONCIERGE}}" tabindex="0" aria-pressed="false">
+            <p class="mb-2 inline-block rounded-full px-2 py-0.5 text-xs badge-accent">Most popular</p>
+            <h3 class="font-semibold">Concierge Pack</h3><p class="mt-1 text-sm text-[var(--muted)]">£79 <span class="text-xs">(founding £59)</span></p>
+            <a href="{{CHECKOUT_CONCIERGE}}" class="mt-5 inline-block text-sm underline" data-purchase-cta="true">Buy direct</a>
+          </article>
+          <article class="pricing-card" data-plan="escalation" data-checkout="{{CHECKOUT_ESCALATION}}" tabindex="0" aria-pressed="false">
+            <h3 class="font-semibold">Escalation Pack</h3><p class="mt-1 text-sm text-[var(--muted)]">£149</p>
+            <a href="{{CHECKOUT_ESCALATION}}" class="mt-5 inline-block text-sm underline" data-purchase-cta="true">Buy direct</a>
+          </article>
+        </div>
+        <div class="mt-3 grid grid-cols-2 gap-2 text-xs text-[var(--muted)] sm:grid-cols-4">
+          <p>Unsure</p><p>Confident</p><p>Time-poor</p><p>Complex</p>
+        </div>
+        <div class="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center">
+          <a id="continue-cta" class="btn-primary w-full sm:w-auto" href="#" data-purchase-cta="true">Continue with selected plan</a>
+          <p id="selection-copy" class="text-sm text-[var(--muted)]">No plan selected yet.</p>
+        </div>
+        <aside class="mt-6 rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-4 text-sm">
+          <p class="font-medium">Fleet PCN Admin: from £99/mo</p>
+          <a class="mt-2 inline-block underline" href="{{FLEET_ENQUIRE_LINK}}">Discuss fleet support</a>
+        </aside>
+      </section>
+
+      <section id="intake" class="mx-auto max-w-6xl px-4 py-10">
+        <h2 class="text-2xl font-semibold tracking-tight">Start intake</h2>
+        <p class="mt-2 text-sm text-[var(--muted)]">Share only what’s needed.</p>
+        <form id="intake-form" action="{{INTAKE_ENDPOINT}}" method="post" enctype="multipart/form-data" class="mt-5 grid gap-4 rounded-2xl border border-[var(--border)] bg-[var(--surface)] p-5">
+          <div class="grid gap-4 sm:grid-cols-2">
+            <label class="field">Full name<input required name="full_name" autocomplete="name" /></label>
+            <label class="field">Email<input required type="email" name="email" autocomplete="email" /></label>
+            <label class="field">Mobile<input required type="tel" name="mobile" autocomplete="tel" /></label>
+            <label class="field">Operator name<input required name="operator_name" /></label>
+            <label class="field">Location<input required name="location" /></label>
+            <label class="field">Amount (£)<input required type="number" name="amount" min="0" step="0.01" /></label>
+            <label class="field">Contravention date<input required type="date" name="contravention_date" /></label>
+            <label class="field">Issue date<input required type="date" name="issue_date" /></label>
+            <label class="field">Discount deadline<input type="date" name="discount_deadline" /></label>
+            <label class="field">Appeal deadline<input required type="date" name="appeal_deadline" /></label>
+          </div>
+          <label class="field">Scenario type
+            <select name="scenario_type" required>
+              <option value="">Select one</option>
+              <option>Overstay</option><option>No payment found</option><option>Incorrect registration</option><option>Permit/display issue</option><option>Other</option>
+            </select>
+          </label>
+          <label class="field">Short description<textarea name="description" rows="4" required></textarea></label>
+          <fieldset class="rounded-xl border border-[var(--border)] p-4">
+            <legend class="px-1 text-sm font-medium">Evidence available</legend>
+            <div class="mt-2 grid gap-2 text-sm text-[var(--muted)] sm:grid-cols-2">
+              <label><input type="checkbox" name="evidence" value="photos" /> Site/sign photos</label>
+              <label><input type="checkbox" name="evidence" value="receipt" /> Receipt or booking</label>
+              <label><input type="checkbox" name="evidence" value="payment" /> Payment proof</label>
+              <label><input type="checkbox" name="evidence" value="correspondence" /> Previous correspondence</label>
+            </div>
+          </fieldset>
+          <label class="field">Upload files<input type="file" name="files" multiple /></label>
+          <label class="text-sm text-[var(--muted)]"><input type="checkbox" id="consent" required /> I consent to processing this information to prepare my admin support pack.</label>
+          <p id="form-message" class="text-sm" aria-live="polite"></p>
+          <button type="submit" class="btn-primary w-full sm:w-fit">Submit intake</button>
+          <p class="text-xs text-[var(--muted)]">If upload fails, email attachments to {{SUPPORT_EMAIL}} with subject ‘PCN – Surname – Operator’.</p>
+        </form>
+      </section>
+
+      <section class="mx-auto max-w-6xl px-4 py-10">
+        <h2 class="text-2xl font-semibold tracking-tight">Client feedback</h2>
+        <div class="mt-6 grid gap-4 md:grid-cols-3">
+          <blockquote class="card p-5 text-sm text-[var(--muted)]">“Calm and practical. I stopped spiralling and sent a stronger appeal.”<footer class="mt-2 text-[var(--text)]">— Leeds, retail park notice</footer></blockquote>
+          <blockquote class="card p-5 text-sm text-[var(--muted)]">“The checklist made it obvious what mattered. No fluff.”<footer class="mt-2 text-[var(--text)]">— Bristol, hotel car park</footer></blockquote>
+          <blockquote class="card p-5 text-sm text-[var(--muted)]">“I’d already appealed once; the follow-up plan helped me stay on deadline.”<footer class="mt-2 text-[var(--text)]">— Glasgow, gym site</footer></blockquote>
+        </div>
+        <p class="mt-4 text-sm text-[var(--muted)]">Case study library coming soon.</p>
+      </section>
+
+      <section id="faq" class="mx-auto max-w-6xl px-4 py-10">
+        <h2 class="text-2xl font-semibold tracking-tight">FAQ</h2>
+        <div class="mt-5 space-y-3" id="faq-list">
+          <div class="faq-item"><button class="faq-trigger" aria-expanded="false">Is this legal advice?</button><div class="faq-panel">No. This is administrative support and document organisation only.</div></div>
+          <div class="faq-item"><button class="faq-trigger" aria-expanded="false">Do you help with council PCNs?</button><div class="faq-panel">No. We support private operator notices only.</div></div>
+          <div class="faq-item"><button class="faq-trigger" aria-expanded="false">How fast is turnaround?</button><div class="faq-panel">Standard turnaround is within 24h. Rush options may be available.</div></div>
+          <div class="faq-item"><button class="faq-trigger" aria-expanded="false">What do you need from me?</button><div class="faq-panel">Your notice, key dates, brief scenario summary, and any supporting evidence.</div></div>
+          <div class="faq-item"><button class="faq-trigger" aria-expanded="false">What if I’ve already appealed?</button><div class="faq-panel">We can usually help with structure and next-step admin if deadlines still allow action.</div></div>
+          <div class="faq-item"><button class="faq-trigger" aria-expanded="false">Will this affect my credit file?</button><div class="faq-panel">Most private parking notices do not affect credit files unless court steps occur and judgments remain unpaid. Check official guidance for your case.</div></div>
+          <div class="faq-item"><button class="faq-trigger" aria-expanded="false">What happens if it’s too late?</button><div class="faq-panel">We will flag missed windows and suggest realistic next admin steps where possible.</div></div>
+          <div class="faq-item"><button class="faq-trigger" aria-expanded="false">Refund policy?</button><div class="faq-panel">Unsupported ticket types are refunded. For supported types, work begins once intake is submitted.</div></div>
+        </div>
+      </section>
+    </main>
+
+    <div id="mobile-bar" class="mobile-bar" aria-hidden="true">
+      <a href="#pricing" class="btn-primary" data-select-plan="sanity" data-purchase-cta="true">Start £12 Sanity Check</a>
+      <a href="#intake" class="btn-secondary">Upload PCN</a>
+    </div>
+
+    <footer class="border-t border-[var(--border)] py-10">
+      <div class="mx-auto max-w-6xl px-4 text-sm text-[var(--muted)]">
+        <p>Contact: <a class="underline" href="mailto:{{SUPPORT_EMAIL}}">{{SUPPORT_EMAIL}}</a> • Mon–Fri, UK business hours</p>
+        <p class="mt-2">Administrative support &amp; document organisation. Not legal advice. Not council Penalty Charge Notices.</p>
+        <p class="mt-2"><a href="#" class="underline">Privacy</a> • <a href="#" class="underline">Terms</a></p>
+      </div>
+    </footer>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "PCN Rescue Pack",
+        "description": "UK private parking charge administrative support and document organisation.",
+        "areaServed": "United Kingdom",
+        "email": "{{SUPPORT_EMAIL}}",
+        "url": "{{CANONICAL_URL}}"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {"@type":"Question","name":"Is this legal advice?","acceptedAnswer":{"@type":"Answer","text":"No. Administrative support and document organisation only."}},
+          {"@type":"Question","name":"Do you help with council PCNs?","acceptedAnswer":{"@type":"Answer","text":"No. We support private operator notices only."}},
+          {"@type":"Question","name":"How fast is turnaround?","acceptedAnswer":{"@type":"Answer","text":"Standard is within 24h, with optional rush services."}},
+          {"@type":"Question","name":"What do you need from me?","acceptedAnswer":{"@type":"Answer","text":"Notice details, dates, summary and available evidence."}},
+          {"@type":"Question","name":"What if I’ve already appealed?","acceptedAnswer":{"@type":"Answer","text":"We may still support next-step admin and structure."}},
+          {"@type":"Question","name":"Will this affect my credit file?","acceptedAnswer":{"@type":"Answer","text":"Usually not unless court/judgment steps occur and remain unpaid."}},
+          {"@type":"Question","name":"What happens if it’s too late?","acceptedAnswer":{"@type":"Answer","text":"We flag missed windows and suggest realistic next steps."}},
+          {"@type":"Question","name":"Refund policy?","acceptedAnswer":{"@type":"Answer","text":"Unsupported ticket types are refunded; supported work starts after intake."}}
+        ]
+      }
+    </script>
+    <script src="scripts.js" defer></script>
+  </body>
+</html>
